@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Styled from './headerStyle';
 export default function Header(){
     return(
@@ -8,9 +9,11 @@ export default function Header(){
                 </a>
             </div>
             <Styled.menuBar>
-                <a style={{paddingRight: '40px'}}>
-                    Intoduction
-                </a>
+                <div style={{paddingRight: '40px'}}>
+                    <Link href={""}>
+                        Intoduction
+                    </Link>
+                </div>
                 <a style={{paddingRight: '40px'}}>
                     Product
                 </a>
