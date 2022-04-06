@@ -3,15 +3,18 @@ import styled from "styled-components";
 const Container = styled.div`
     position: absolute;
     display: flex;
-    width: 100%;
-    height: 40px;
+    height: 90px;
     left: 0;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding: 0 auto;
+    margin-left: 20px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    background-color: red;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 18px;
 `;
 
 const menuBar = styled.div`
