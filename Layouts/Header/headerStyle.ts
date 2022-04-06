@@ -11,17 +11,9 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: red;
     font-size: 24px;
     font-weight: 500;
     line-height: 18px;
 `;
 
-const menuBar = styled.div`
-    justify-content: space-around;
-    flex-direction: row;
-    display: flex;
-    margin-right: 15vw;
-`;
-
-export default {Container,menuBar};
+export default {Container};
